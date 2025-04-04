@@ -1,17 +1,27 @@
-# Welcome to MkDocs
+# Mobcast Technical Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This documentation serves as a comprehensive resource for the Mobcast Tech team.
 
-## Commands
+## Getting Started
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* `git clone git@bitbucket.org:mobcast_team/mobcast-core.git` - Clone the repository
+* `composer install` - Install dependencies
+* `php artisan serve` - Start development server
 
-## Project layout
+## Documentation Structure
 
-    mkdocs.yml    # The configuration file.
     docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        architecture/    # System architecture documentation
+        api/             # API specifications and usage
+        deployment/      # Deployment guides
+        development/     # Development guidelines
+        troubleshooting/ # Common issues and solutions
+
+## Best Practices
+
+* Follow the coding standards defined in our style guide
+* Create unit tests for all new features
+* Document API changes
+* Review the architecture diagrams before making structural changes
+
+For additional support, contact the tech lead or refer to our internal knowledge base.

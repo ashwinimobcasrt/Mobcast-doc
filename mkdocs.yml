@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Techical Docs
 theme: 
   name: material
   logo: assets/mobcast-logo.png
@@ -23,8 +23,7 @@ theme:
       primary: blue
       accent: deep orange
   features:
-    - navigation.tabs
-    - navigation.top
+    - navigation.sidebar
     - navigation.sections
     - navigation.expand
     - navigation.instant
